@@ -20,6 +20,21 @@
       background-position: 50% 85%; 
     }
     .mybutton {
+      background-color: black;
+      color: white;
+      border: 2px solid #555555;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+      width: 40%;
+      border-radius: 4px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .mybutton:hover {
       background-color: white;
       color: black;
       border: 2px solid #555555;
@@ -28,14 +43,15 @@
       text-decoration: none;
       display: block;
       font-size: 16px;
-      width: 50%;
+      width: 40%;
       border-radius: 4px;
       margin: 4px 2px;
       cursor: pointer;
     }
 
     .button-container{
-      align-items: center;
+      display: flex;
+      margin-top: 40%;
     }
   </style>
 
@@ -44,8 +60,8 @@
   <body background="img/blankspace-logo.jpeg">
     <div class="navbar-wrapper">
       <div class="button-container">
-            <a href="https://gxneu-6qaaa-aaaal-qax6q-cai.ic0.app/" class="mybutton">blankspace</a>
-            <a href="https://www.youtube.com/" class="mybutton">YouTube Intro Video</a>
+            <a href="https://gxneu-6qaaa-aaaal-qax6q-cai.ic0.app/" style="pointer-events: none" class="mybutton">blankspace</a>
+            <a href="https://www.youtube.com/" style="pointer-events: none" class="mybutton">YouTube Intro Video</a>
       </div>
     </div>
 
