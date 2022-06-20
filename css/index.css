@@ -10,7 +10,7 @@
 body { 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 85%; 
+    background-position: 50% 95%; 
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -54,7 +54,7 @@ body {
   .button-container{
     justify-content: center;
     display: flex;
-    margin-top: 30%;
+    margin-top: 40%;
   }
 
   #footer {
